@@ -4,6 +4,135 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    margin: 0 auto;
+}
+
 h1, h2, h3, h4{
     font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 68px;
+    line-height: 86px;
+    color: white;
+    margin: 0%;
+}
+
+h4{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: white;
+}
+
+header{
+    background-color: rgb(10,16,28,1);
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    height: 64px;
+}
+
+.nav{
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 125%;
+    color: white;
+    margin-right: 60px;
+}
+
+.nav a {
+    padding-left: 16px;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+#hero{
+    height: 800px;
+    background: linear-gradient(90deg, #2B5876 0%, #4E4376 100%);
+    flex-direction: row;
+    padding: 100px;
+}
+
+#calltoaction{
+    width: 500px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+#pagetwo{
+    height: 100vh;
+    background: linear-gradient(90deg, #72C6EF 0%, #004E8F 100%);
+    /* justify-content:left; */
+    flex-direction: column;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 100px;
+    
+}
+
+/* #pictures{
+    justify-content: space-between;
+} */
+
+.btn-large{
+    font-size: 18px;
+    width: 221px;
+    height: 52px;
+    padding: 8px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 100px;
+    background: #FFFFFF;
+    border-radius: 27.8027px;
+
+    border: solid 2px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.btn-small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 12px;
+    width: 155px;
+    height: 33.36px;
+    background: #FFFFFF;
+    border-radius: 27.8027px;
+
+    border: solid 2px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.container {
+    display:flex;
+}
+
+a:hover{
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:active{
+    color: white;
 }
