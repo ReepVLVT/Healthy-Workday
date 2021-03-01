@@ -60,6 +60,7 @@ header{
 #hero{
     height: 800px;
     background: linear-gradient(90deg, #2B5876 0%, #4E4376 100%);
+    display: flex;
     flex-direction: row;
     padding: 100px;
 }
@@ -92,7 +93,6 @@ header{
     padding: 8px;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 100px;
-    background: #FFFFFF;
     border-radius: 27.8027px;
 
     border: solid 2px transparent;
@@ -110,7 +110,6 @@ header{
     font-size: 12px;
     width: 155px;
     height: 33.36px;
-    background: #FFFFFF;
     border-radius: 27.8027px;
 
     border: solid 2px transparent;
@@ -119,6 +118,15 @@ header{
     background-clip: content-box, border-box;
     box-shadow: 2px 1000px 1px #fff inset;
 }
+.btn-small:hover{
+color: white;
+box-shadow:2px 1000px 1px gray inset;
+}
+
+.btn-large:hover{
+    color: white;
+    box-shadow:2px 1000px 1px gray inset;
+    }
 
 .container {
     display:flex;
